@@ -1,0 +1,19 @@
+.background {
+  background-image: linear-gradient(#fffde7, #ffecb3);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #424242;
+}
+
+.nav-wrapper {
+  background-color: #fbc02d;
+}
+
+nav .brand-logo {
+  position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #424242;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+}

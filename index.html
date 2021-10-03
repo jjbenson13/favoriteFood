@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cheesecake</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<div class="background">
+
+  <nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Cheesecake</a>
+  </div>
+</nav>
+
+<section class="row">
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img
+        src="https://images.pexels.com/photos/3185509/pexels-photo-3185509.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></a>
+    <a class="carousel-item" href="#two!"><img
+        src="https://images.pexels.com/photos/3323686/pexels-photo-3323686.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"></a>
+    <a class="carousel-item" href="#three!"><img
+        src="https://images.pexels.com/photos/3071821/pexels-photo-3071821.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"></a>
+    <a class="carousel-item" href="#four!"><img
+        src="https://images.pexels.com/photos/4040695/pexels-photo-4040695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></a>
+    <a class="carousel-item" href="#five!"><img
+        src="https://images.pexels.com/photos/6631965/pexels-photo-6631965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"></a>
+  </div>
+
+  <div class="parallax-container">
+  
+    <section class="collapse">
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">About</i></div>
+          <div class="collapsible-body"><span>words words</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">Origins</i></div>
+          <div class="collapsible-body"><span>
+            words words
+          </span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">The Best Cheesecake Recipe</i></div>
+          <div class="collapsible-body"><span>words words</span></div>
+        </li>
+      </ul>
+    </section>
+    </div>
+    </div>
+
+  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, {});
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, {});
+  });
+</script>
+</body>
+
+</html>
